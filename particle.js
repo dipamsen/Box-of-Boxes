@@ -26,7 +26,7 @@ class Particle {
         } else if(bSlider.value() === 1){
             fill(random(255),0,random(255));
         }
-        ellipse(0, 0, this.r);
+        ellipse(0, 0, this.r*2);
         pop();
     }
   };
