@@ -47,7 +47,7 @@ function mousePressed() {
         if(type === Box){
             boxes.push(new Box(mouseX,mouseY,random(10,40),random(10,40)));
         } else{
-            particles.push(new Particle(mouseX,mouseY,25));
+            particles.push(new Particle(mouseX,mouseY,random(10,40)));
         }
     }
 }
